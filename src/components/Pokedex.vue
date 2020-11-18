@@ -25,7 +25,6 @@
         class="card"
         v-for="pokemon in pokemons"
         :key="pokemon.id"
-        style="width: 18rem;"
       >
         <img
           class="card-img-top"
